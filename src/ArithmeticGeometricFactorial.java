@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ArithmeticGeometriFactorial {
+public class ArithmeticGeometricFactorial {
     static final Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
