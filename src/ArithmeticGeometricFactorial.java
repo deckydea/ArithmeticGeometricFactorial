@@ -7,7 +7,6 @@ public class ArithmeticGeometricFactorial {
         int sizeNumber;
         int difNumber;
 
-
         while (true) {
             System.out.println("\n       Belajar Deret Aritmatika, Geometri dan menghitung Faktorial");
 
@@ -38,6 +37,9 @@ public class ArithmeticGeometricFactorial {
                 }
                 break;
             }
+
+            //Empty line
+            System.out.println("");
 
             populateArithmetic(sizeNumber, difNumber);
             populateGeometric(sizeNumber, difNumber);
@@ -117,7 +119,7 @@ public class ArithmeticGeometricFactorial {
         return isRepeat;
     }
 
-    //Validating the length of string
+    //Validating the length or size
     private static boolean validateLength(int lengthValue, int minLength, int maxLength) {
         return lengthValue < minLength || lengthValue > maxLength;
     }
